@@ -311,7 +311,7 @@ textarea.form__input {
   display: flex;
 }
 .benefits-list__item {
-  gap: var(--indent);
+  margin-right: var(--indent);
 }
 .benefits-icon {
   display: flex;
