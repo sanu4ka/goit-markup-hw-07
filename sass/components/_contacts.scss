@@ -1,0 +1,12 @@
+.contacts {
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  fill: currentColor;
+
+  & li:not(:last-child) {
+  margin-right: 30px;
+  }
+
+}

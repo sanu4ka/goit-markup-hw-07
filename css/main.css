@@ -91,7 +91,31 @@ body {
   padding-bottom: 94px;
 }
 
+.logo {
+  font-family: var(--logo-font), sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--focus-color);
+}
+.header .logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header .logo__second-part {
+  color: var(--logo-color);
+}
+
 .header {
   font-weight: 500;
   border-bottom: 1px solid var(--header-border);
+}
+.header .container, .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=main.css.map */

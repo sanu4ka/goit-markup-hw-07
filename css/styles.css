@@ -1,39 +1,4 @@
-.header-nav,
-.nav-list,
-.contacts,
-header > .container {
-  display: flex;
-  align-items: center;
-}
-.logo {
-  font-family: var(--logo-font), sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--focus-color);
-}
-.header-nav > .logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.header .logo__second-part {
-  color: var(--logo-color);
-}
-.nav-list > li:not(:last-child) {
-  margin-right: 50px;
-}
-.contacts > li:not(:last-child) {
-  margin-right: 30px;
-}
-.nav-list,
-.contacts {
-  letter-spacing: 0.02em;
-}
-.contacts {
-  margin-left: auto;
-  fill: currentColor;
-}
+
 .nav-list__link {
   color: var(--text-color);
   padding-top: 32px;
