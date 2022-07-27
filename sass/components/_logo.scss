@@ -6,13 +6,21 @@
   color: var(--focus-color);
 
   .header & {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .header &__second-part {
-  color: var(--logo-color);
+    color: var(--logo-color);
   }
 
+  .footer &__second-part {
+    color: var(--maintext-color);
+  }
+
+  .footer & {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 }

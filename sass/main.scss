@@ -1,12 +1,7 @@
-@import './utils/vars';
-@import './utils/reset';
-@import './utils/visualy-hidden';
+@import './utils/module';
 
-@import './base/common';
-@import './base/container';
-@import './base/section';
+@import './base/module';
 
-@import './components/buttons';
-@import './components/logo';
+@import './components/module';
 
-@import './layouts/header';
+@import './layouts/module';
