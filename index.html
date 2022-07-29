@@ -89,7 +89,7 @@
               <label class="form__label">
                 <span class="form__description">Комментарий</span>
                 <textarea
-                  class="form__input"
+                  class="form__input textarea"
                   name="comment"
                   cols="30"
                   rows="10"
@@ -102,10 +102,10 @@
                   type="checkbox"
                   name="agreement-allow"
                 />
-                <p class="agreement__text">
+                <span class="agreement__text">
                   Соглашаюсь с рассылкой и принимаю
                   <a class="agreement__link" href="">Условия договора</a>
-                </p>
+                </span>
                 <span class="icon-checkbox"></span>
                 <svg class="icon-agreement" width="16px" height="15px">
                   <use class="icon-check" href="./images/icons.svg#icon-check"></use>
@@ -502,7 +502,7 @@
           <strong class="subscribe-section__title">Подпишитесь на рассылку</strong>
           <div class="subscribe-section__form">
             <label>
-                <input class="subscribe-input form__input" type="email" name="email-subscribe" placeholder="E-mail"></input>
+                <input class="subscribe-input form__input" type="email" name="email-subscribe" placeholder="E-mail"/>
             </label>
             <button class="subscribe-section__button button" type="submit">Подписаться
               <span class="subscribe-section__icon">

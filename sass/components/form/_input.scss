@@ -13,7 +13,7 @@
     border-color: var(--focus-color);
   }
 
-  textarea & {
+  &.textarea {
     height: 120px;
     padding: 12px 16px;
     letter-spacing: 0.01em;
