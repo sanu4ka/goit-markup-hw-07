@@ -1,8 +1,9 @@
 .benefits-list {
   display: flex;
+  flex-wrap: wrap;
 
   &__item {
-    margin-right: var(--indent);
+    gap: var(--indent);
   }
 }
 
