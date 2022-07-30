@@ -1,10 +1,7 @@
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-
-  &__item {
-    gap: var(--indent);
-  }
+  gap: var(--indent);
 }
 
 .benefits__title {
@@ -13,6 +10,11 @@
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 480px) {
+    justify-content: center;
+    display: flex;
+  }
 }
 
 .benefits__description {

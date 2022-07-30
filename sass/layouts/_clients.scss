@@ -1,6 +1,8 @@
 .clients-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--indent);
 
   &__item {
     display: inline-block;
